@@ -51,6 +51,7 @@ void useStaticLocal(){
     printf("\nlocal x is %d on entering useStaticLocal\n",x);
     
      ++x;   
+  
     printf("\nlocal x is %d on exiting useStaticLocal\n",x);
 
 }

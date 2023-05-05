@@ -1,8 +1,9 @@
-compile: main.c 
-	 gcc main.c -o ming
+DEPS= sho
+compile: main.cpp
+	 gcc main.c -o $(DEPS)
 
-run: ming
-	 ./ming
+run: $(DEPS)
+	 ./$(DEPS)
 
-clean: ming
-	 rm ming
+clean: $(DEPS)
+	 rm $(DEPS)
